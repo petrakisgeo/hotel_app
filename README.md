@@ -1,17 +1,16 @@
 # hotel_database
 
-1. Στο αρχείο requirements.txt βρίσκονται τα dependencies εκτός των default βιβλιοθηκών της python. Μπορούμε να κάνουμε εγκατάσταση των πακέτων τρέχοντας το με το pip
-2. Τρέχουμε το αρχείο main
+1. Project dependencies besides the Python default modules are mentioned in the "requirements.txt" file 
+2. To open the app we run the "main.py" script
 
-Λειτουργία ως Χρήστης-Πελάτης
-3. Αν θέλουμε να χρησιμοποιήσουμε την εφαρμογή ως πελάτης, πραγματοποιούμε εγγραφή συμπληρώνοντας όλα τα πεδία και πατώντας το κουμπή "Register" στο πρώτο παράθυρο
-4. Στο παράθυρο που εμφανίζεται επιλέγουμε από το dropdown menu τις ημερομηνίες, τις παροχές από τα checkboxes και στο Entry εισάγουμε τον επιθυμητό αριθμό ατόμων
-5. Πατάμε "Search for Rooms"
-6. Επιλέγουμε σενάριο φιλοξενίας και πατάμε "προβολή σεναρίου φιλοξενίας"
-7. Στο επόμενο tab, πατάμε το κουμπί εμφάνιση κρατήσεων
-8. Μπορούμε να επιλέξουμε μία κράτηση με το ποντίκι και με τα 2 άλλα κουμπιά να δούμε λεπτομέρειες ή να ακυρώσουμε (ΠΡΟΣΟΧΗ:ΔΕΝ ΜΠΟΡΕΙ ΝΑ ΓΙΝΕΙ ΑΚΥΡΩΣΗ ΓΙΑ ΜΙΑ ΚΡΑΤΗΣΗ ΓΙΑ ΤΗΝ ΟΠΟΙΑ ΕΧΕΙ ΓΙΝΕΙ CHECKIN
+/User as a Client/
+  1. If we want to use the app as a client first we register through the interface filling all the necessary fields.
+  2. To browse through the available hotel rooms in the next window, we fill in the dates and the number of people in the group and then check the indicative extra benefits
+  3. After the results are shown we can choose through multiple scenarios of stay with the dropdown menu by pressing "Προβολή σεναρίου φιλοξενίας".
+  4. To make a reservation we use the 
+  5. To see the details of current or previous bookings we use the next tab. We can also cancel a booking (but of course not one that has already been checked-in from an admin)
 
-Λειτουργία ως Διαχειριστής:
-1.Συνδεόμαστε με όνομα χρήστη "georgepetr" και κωδικό "123456"
-2. Επιλέγουμε μία κράτηση (όχι μελλοντική ή παρελθούσα) και εμφανίζονται αυτόματα και διαδοχικά οι αριθμοί δωματίων για να φιλοξενήσουμε τους πελάτες
-3. Στην επόμενη καρτέλα επιλέγουμε με το drop down μενού μία περίοδο και πατάμε "προβολή" για να δούμε ενδεικτικά στατιστικά σχετικά με την βάση δεδομένων και τις κρατήσεις
+/User as Admin/
+  1. To use the app as an admin we use the username and password "georgepetr" and "123456" (clearly indicative. We can also add new admins)
+  2. To check-in a group of people we write their reservation number and then choose the specific rooms to place them upon their arrival
+  3. In the last tab we can display indicative statistics regarding the hotel, the guests and the reservations
