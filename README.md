@@ -14,3 +14,8 @@
   1. To use the app as an admin we use the username and password "georgepetr" and "123456" (clearly indicative. We can also add new admins)
   2. To check-in a group of people we write their reservation number and then choose the specific rooms to place them upon their arrival
   3. In the last tab we can display indicative statistics regarding the hotel, the guests and the reservations
+
+
+Examples of hotel data, users and admins are contained within .xlsx files in the excel_data folder. 
+
+During development, the main goal was to optimize the room-browsing aspect of the app by combining SQLite queries and different python modules to match the feel of commercial booking applications. Apart from that, the resulting app is very scalable and flexible. The GUI is simple but can easily be modified
